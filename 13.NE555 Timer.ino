@@ -1,5 +1,8 @@
 //NE555 Timer
-//After burning the program, open the serial monitor,you can see that if you rotate the potentiometer, the length of the pulse (in microsecond) displayed will change accordingly.
+/*****************************************************************************
+After burning the program, open the serial monitor,you can see that if you rotate the potentiometer,
+the length of the pulse (in microsecond) displayed will change accordingly.
+**************************************************************************/
 //Email:support@sunfounder.com
 //Website:www.sunfounder.com
 //2015.5.7
