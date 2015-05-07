@@ -1,8 +1,7 @@
 //Flowing LED Lights
-/* Eight LEDs will light up one by one from left to right, 
-and then go out one by one from right to left.
-After that, the LEDs will light up one by one from right to left, 
-and then go out one by one from left to right. This process will repeat indefinitely.*/
+/* Eight LEDs will light up one by one from left to right, and then go out one by one from right to left.
+After that, the LEDs will light up one by one from right to left, and then go out one by one from left to right.
+This process will repeat indefinitely.*/
 //Email:support@sunfounder.com
 //Website:www.sunfounder.com
 //2015.5.7
