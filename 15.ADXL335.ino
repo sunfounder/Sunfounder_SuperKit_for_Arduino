@@ -1,5 +1,5 @@
 //ADXL335
-/********************************
+/***********************************************************************
 ADXL335
 note:vcc-->5v ,but ADXL335 Vs is 3.3V
 The circuit:
@@ -7,8 +7,10 @@ The circuit:
 analog 0: x-axis
 analog 1: y-axis
 analog 2: z-axis
-*********************************/
-////Email:support@sunfounder.com
+After burning the program, open the serial monitor debugging window,
+where you can see the data detected being displayed. When the acceleration varies, the figure will vary accordingly.
+************************************************************************/
+//Email:support@sunfounder.com
 //Website:www.sunfounder.com
 //2015.5.7
 const int xpin = A0;                  // x-axis of the accelerometer
