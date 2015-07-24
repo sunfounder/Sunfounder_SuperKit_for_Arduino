@@ -16,7 +16,7 @@ void setup()
 void loop()
 {
   //read the state of the key value
-  //and check if the kye is pressed
+  //and check if the key is pressed
   //if it is,the state is HIGH 
   if(digitalRead(keyPin) ==HIGH )
   {
