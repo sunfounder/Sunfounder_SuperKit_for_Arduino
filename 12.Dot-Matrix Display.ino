@@ -45,8 +45,8 @@ void loop()
       {
           dat = dat<<1;  
           delay(1); //wait for a microsecond    
-          shiftOut(dataPin,clockPin,MSBFIRST,data[num+0]);
-          shiftOut(dataPin,clockPin,MSBFIRST,dat);    
+          shiftOut(dataPin,clockPin,MSBFIRST,~data[num+0]);
+          shiftOut(dataPin,clockPin,MSBFIRST,~dat);    
           //return the latch pin high to signal chip that it 
           //no longer needs to listen for information
           digitalWrite(latchPin,HIGH); //pull the latchPin to save the data
