@@ -18,7 +18,7 @@ void setup ()
 }
 void loop()
 {
-  //loop from 0 to 256
+  //loop from 0 to 15
   for(int num = 0; num < 16; num++)
   {
     digitalWrite(latchPin,LOW); //ground latchPin and hold low for as long as you are transmitting
